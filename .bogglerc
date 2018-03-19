@@ -1,0 +1,17 @@
+# BOGGLE configuration file
+
+
+# General options
+dict=words # filename relative to current directory (just a list of \n separated words)
+
+
+# Board configuration
+size=5x5 # 4x4 or 5x5 tiles
+pbc=true # periodic boundary conditions
+
+
+# Game preferences
+minlength=3 # minimum number of letters in a word (QU is two letters)
+time=300 # game length in seconds
+sfw=false # insults on
+
